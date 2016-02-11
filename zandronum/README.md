@@ -69,7 +69,7 @@ Since we have put everything important, let's make a check to see if Zandronum i
 
 It should load MAP01 (or E1M1 if you put DOOM.WAD), as seen in this picture:
 
-![success](https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zandronum/images/success.PNG)[[|alt=success]]
+![success](https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zandronum/images/success.PNG)
 
 If an error says it hasn't found any IWAD, check if you put the wad in uppercase, as said above. Otherwise, good job! You have managed to do the hardest!
 

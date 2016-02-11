@@ -23,7 +23,7 @@ In order to make this tutorial painless, you will need the following:
 >You currently are logged in with the "root" account!!!
 
 We will create an user called doomuser. Type this command:
->adduser --force-badname doomuser 
+> adduser --force-badname doomuser 
 
 It will ask for a password. Put one.
 
@@ -37,7 +37,7 @@ There are 2 ways to install zandronum: either by compiling the sources, or by au
 Since we aren't willing to put much work to install Zandronum (unless you really wish to add personnal features), we are going to install it automatically.
 
 Type these commands (taken from the official page):
->add-apt-repository 'deb http://debian.drdteam.org/ stable multiverse' <br />
+> add-apt-repository 'deb http://debian.drdteam.org/ stable multiverse' <br />
 wget -O - http://debian.drdteam.org/drdteam.gpg | sudo apt-key add - <br />
 sudo apt-get update <br />
 sudo apt-get install zandronum-server -y
@@ -69,6 +69,7 @@ Since we have put everything important, let's make a check to see if Zandronum i
 
 It should load MAP01 (or E1M1 if you put DOOM.WAD), as seen in this picture:
 
+[[https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zandronum/images/success.PNG|alt=success]]
 
 If an error says it hasn't found any IWAD, check if you put the wad in uppercase, as said above. Otherwise, good job! You have managed to do the hardest!
 
@@ -82,13 +83,13 @@ Lucky you, I have a template ready for deployment.
 
 Type these commands:
 
-> wget ?????????????? <br />
-wget ???????????????? <br />
+> wget https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zandronum/templates/server.sh<br />
+wget https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zandronum/templates/server.cfg<br />
 chmod 750 ./server.sh
 
 Now, with nano, open the file. Modify what you need (while still respecting the template!). 
 
 Once it is done, write this command:
-./server.sh
+> ./server.sh
 
 If it still goes well, your server appears! Congrats, you are a pro at making Zandronum servers!

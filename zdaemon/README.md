@@ -62,7 +62,7 @@ cd $HOME/zdaemon
 
 ## Testing our server
 
-> We are still with doomuser, in $HOME/zdaemon
+> We are still with doomuser, in $HOME/zdaemon !
 
 Since we have put everything important, let's make a check to see if Zandronum is actually working. Type in this command:
 > ./zserv -waddir $HOME/zdaemon/wads -iwad DOOM2.WAD
@@ -70,7 +70,7 @@ Since we have put everything important, let's make a check to see if Zandronum i
 It should load MAP01 (or E1M1 if you put DOOM.WAD), as seen in this picture:
 
 ![success1](https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zdaemon/images/consolesuccess.PNG)
-![success2](https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zdaemon/images/mastersuccess.PNG)
+![success2](https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zdaemon/images/mastersuccess.png)
 
 If an error says it hasn't found any IWAD, or crashes, check if you put the wad in uppercase, as said above. Otherwise, good job! You have managed to do the hardest!
 
@@ -78,7 +78,7 @@ If an error says it hasn't found any IWAD, or crashes, check if you put the wad 
 
 Now that we know our server works, feel free to modify zserv.sh & zserv.cfg to make it customized as your suits.
 
-I also added some configurations examples (taken from BaseQ.fr servers) for some of you who are interested.
+I also added some configurations examples (taken from BaseQ.fr servers) for some of you who are interested. you can check it in the "templates" folder.
 
 ## Additionnal ressources
 

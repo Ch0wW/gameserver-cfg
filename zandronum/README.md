@@ -94,5 +94,5 @@ Once it is done, write this command:
 
 Here are some useful links if you need to configure your Zandronum server:
 - http://wiki.zandronum.com/DMFlags : A list of all the DMFlags the server will use.
-- http://wiki.zandronum.com/Server_Variables : A list of all the server's CVARs will use.
+- http://wiki.zandronum.com/Server_Variables : A list of all the server's CVARs that are usable.
 - http://wiki.zandronum.com/Console_Commands : A list of all the console commands available, both clientside & serverside.

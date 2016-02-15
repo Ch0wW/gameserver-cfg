@@ -10,6 +10,6 @@
 set PORT=10666
 set IWAD="DOOM2.WAD"
 set PWAD=""
-set CFG=""
+set CFG="server.cfg"
 
 zandronum.exe -host -port %PORT% -iwad %IWAD% -file %PWAD% +exec %CFG% %ADD_PARMS%

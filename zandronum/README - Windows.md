@@ -8,11 +8,9 @@ Unlike the Linux distribution taking more steps (for security purposes), this on
 
 If you have already Zandronum installed on your system, you can skip this step.
 
-Otherwise, you can download the file at this address:
+Otherwise, you can download the file at this address: http://zandronum.com/download .
 
-http://zandronum.com/download
-
-Select the Core archive (http://zandronum.com/downloads/zandronum2.1.2-win32-base.zip for the current latest stable version), and extract it on a folder of your choice.
+Select the Core archive ( http://zandronum.com/downloads/zandronum2.1.2-win32-base.zip for the current latest stable version), and extract it on a folder of your choice.
 
 ## Setting everything up
 

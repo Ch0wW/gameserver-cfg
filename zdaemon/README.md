@@ -83,5 +83,6 @@ I also added some configurations examples (taken from BaseQ.fr servers) for some
 ## Additionnal ressources
 
 Here are some useful links if you need to configure your Zandronum server:
+- https://github.com/Ch0wW/doomsv-wizard : A python3 tool I made to ease making configs for servers.
 - http://zdaemon.org/?CMD=info&NAME=server : A list of all the server's CVARs and CMDs.
 - http://zdaemon.org/?CMD=info&NAME=tos : The terms of Service if you want to be seen in the masterserver.

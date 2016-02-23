@@ -64,7 +64,7 @@ cd $HOME/zdaemon
 
 > We are still with doomuser, in $HOME/zdaemon !
 
-Since we have put everything important, let's make a check to see if Zandronum is actually working. Type in this command:
+Since we have put everything important, let's make a check to see if  is actually working. Type in this command:
 > ./zserv -waddir $HOME/zdaemon/wads -iwad DOOM2.WAD
 
 It should load MAP01 (or E1M1 if you put DOOM.WAD), as seen in this picture:
@@ -78,11 +78,11 @@ If an error says it hasn't found any IWAD, or crashes, check if you put the wad 
 
 Now that we know our server works, feel free to modify zserv.sh & zserv.cfg to make it customized as your suits.
 
-I also added some configurations examples (taken from BaseQ.fr servers) for some of you who are interested. you can check it in the "templates" folder.
+I also added some configurations examples (taken from BaseQ.fr servers) for some of you who are interested. you can check them in the "templates" folder.
 
 ## Additionnal ressources
 
-Here are some useful links if you need to configure your Zandronum server:
-- https://github.com/Ch0wW/doomsv-wizard : A python3 tool I made to ease making configs for servers.
+Here are some useful links if you need to configure your Zdaemon server:
 - http://zdaemon.org/?CMD=info&NAME=server : A list of all the server's CVARs and CMDs.
 - http://zdaemon.org/?CMD=info&NAME=tos : The terms of Service if you want to be seen in the masterserver.
+- https://github.com/Ch0wW/doomsv-wizard : A python3 tool I made to ease making configs for servers.

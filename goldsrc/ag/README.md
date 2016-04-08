@@ -57,7 +57,7 @@ For further informations, please read "cfg/automaps.cfg".
 Reload your server.cfg file, and test your alias. It should immediatly work.
 
 ------------------
-IV) Credits
+III) Credits
 ------------------
 
-I spend a lot of time making this, in order to get THE best configuration possible for Adrenaline Gamer ; both in administration and simplicity. It was not based on anything, everything was written from scratch (except for gamemodes, that I just adapted).
+I spent a lot of time making this, in order to get THE best configuration possible for Adrenaline Gamer ; both in administration and simplicity. It was not based on anything, everything was written from scratch (except for gamemodes, that I just adapted).

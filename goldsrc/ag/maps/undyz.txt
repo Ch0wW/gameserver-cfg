@@ -1,0 +1,50 @@
+Undyz - made for -dhd-
+====================================================================================================
+
+Date                    : 6th june, 2007
+Title                   : Undyz
+Filename                : undyz.bsp
+Author                  : BD [Sander Pott]
+Email Address           : beedeeboy@hotmail.com
+
+Map Description         : Well quite simply said: it's a remake of undertow, inwhich the idea was to hold
+			  the waterroom. My idea was to make the waterroom more central, add a few exits
+			  to make it harder to defend, with more armor and weapons, to even it up.
+			  Just have to say it's my first real complete map, so be critical, I can learn :)
+
+===================================================================================================
+
+== Play Information ==
+Single Player           : No
+Cooperative             : No
+Deathmatch              : Yes
+
+== Construction ==
+Base                    : undertow.bsp
+Editor(s) used          : just QuArK 6.5 Beta
+
+== Build Machine ==
+AMD Athlon XP 2400+ ~2.0GHz
+1024MB Ram
+ATI RADEON 9600 AGP 128mb
+
+
+========================== Playtesting & Suggestions =============================================
+	
+Thanks x10:		-dhd-, Madmoony, Irish, Unreal, Shy
+Thnx for loc&feedback:	AmIcool?
+
+
+== Installation Info ==
+Just put undyz.bsp in your Valve\Steam\steamapps\YOURMAIL@address.com\half-life\ag\maps dir and the locations
+file if you make it in: Valve\Steam\steamapps\YOURMAIL@address.com\half-life\ag\locs.
+
+==Copyright / Permissions==
+Authors may use this level as a base to build additional levels.
+
+This map may be distributed ONLY on a "not for profit" basis using any medium,
+provided this file is included with no changes.
+
+Magazines and other published media may use my level provided they ask for my permission.
+
+This template is available from www.globalassault.com.

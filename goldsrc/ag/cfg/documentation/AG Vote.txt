@@ -1,0 +1,24 @@
+sv_ag_pure 1 - 0 is regular spike and wallhack check. 1 adds checks so that standard models are the same as the servers (aimbot protection), it also adds the variable checker.
+sv_ag_max_spectators 5 - Max spectators allowed.
+sv_ag_allowed_gamemodes "ffa;tdm;arena;arcade;sgbow;instagib" - The allowed gamemodes. Set this in startup_server.cfg.
+sv_ag_allow_vote 1 - Allow voting.
+sv_ag_vote_setting 1 - Vote ag_xxx ettings.
+sv_ag_vote_gamemode 1 - Allow gamemode switching. This is limited with the sv_ag_allowed_gamemodes variable
+sv_ag_vote_kick 0 - Allow voting a kick.
+sv_ag_vote_admin 0 - Allow voting an admin.
+sv_ag_vote_map 1 - Allow map voting.
+sv_ag_vote_start 1 - Allow agstart/agkick.
+sv_ag_vote_allow 1 - Allow agallow..
+ag_start_minplayers 2 - Minumum amount of player to allow match with agstart command.
+ag_vote_failed_time 180 - Seconds until next vote can begin if last failed.
+sv_ag_vote_mp_timelimit_low 10 - Lowest timelimit to vote on.
+sv_ag_vote_mp_timelimit_high 40 - Highest timelimit to vote on.
+sv_ag_vote_mp_fraglimit_low 0 - Lowest fraglimit to vote on.
+sv_ag_vote_mp_fraglimit_high 10 - Highest fraglimit to vote on.
+sv_ag_show_gibs 1 - Show dead bodies.
+sv_ag_spawn_volume 0.5 - respawn sound volume. The default value is half the regular value.
+sv_ag_floodmsgs 4 - Flood messages to tolerate. 0 will deactive it.
+sv_ag_floodpersecond 4 - Flood messages per second.
+sv_ag_floodwaitdelay 10 - Flood penelty timer.
+sv_ag_auto_admin 1 - Give auto admin to admins in admin list.
+sv_ag_allow_timeout 1 - Allow players calling timeout when playing a match. 

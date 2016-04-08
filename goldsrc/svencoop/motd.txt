@@ -1,0 +1,5 @@
+This server is running Sven Co-op v4.6
+http://www.svencoop.com/
+
+This server is also using the SvenCoop cfg by Ch0wW
+http://baseq.fr

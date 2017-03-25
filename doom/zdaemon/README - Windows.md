@@ -27,7 +27,7 @@ From now on, you can start presets, or create a new one. Just follow the instruc
 
 Once it is done, you can save your preset, and click on "Start Server".
 
-![success1](https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zdaemon/images/windows_zsw.PNG)
+![success1](https://raw.githubusercontent.com/Ch0wW/gameserver-cfg/master/doom/zdaemon/images/windows_zsw.PNG)
 
 ## Additionnal ressources
 

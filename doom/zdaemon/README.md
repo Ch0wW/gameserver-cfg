@@ -1,7 +1,7 @@
 # How to create a Zdaemon server on Linux
 
 This readme contains a tutorial, in order to create a remote Zdaemon server, the simpliest as possible.
-We will use a Linux - Debian distribution. You can use Ubuntu, or Linux Mint with no problem.
+We will use Debian Jessie (Linux) as our distribution. You can use Ubuntu, or Linux Mint with no problem.
 
 Here are the steps that we will do:
 - Create an user specifically for Zdaemon
@@ -69,8 +69,8 @@ Since we have put everything important, let's make a check to see if  is actual
 
 It should load MAP01 (or E1M1 if you put DOOM.WAD), as seen in this picture:
 
-![success1](https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zdaemon/images/consolesuccess.PNG)
-![success2](https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zdaemon/images/mastersuccess.png)
+![success1](https://raw.githubusercontent.com/Ch0wW/gameserver-cfg/master/doom/zdaemon/images/consolesuccess.PNG)
+![success2](https://raw.githubusercontent.com/Ch0wW/gameserver-cfg/master/doom/zdaemon/images/mastersuccess.png)
 
 If an error says it hasn't found any IWAD, or crashes, check if you put the wad in uppercase, as said above. Otherwise, good job! You have managed to do the hardest!
 

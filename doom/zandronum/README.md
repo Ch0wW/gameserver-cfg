@@ -1,7 +1,7 @@
 # How to create a Zandronum server on Linux
 
 This readme contains a tutorial, in order to create a remote Zandronum server, the simpliest as possible.
-We will use a Linux - Debian distribution. You can use Ubuntu, or Linux Mint with no problem.
+We will use Debian Jessie (Linux) as our distribution. You can use Ubuntu, or Linux Mint with no problem.
 
 Here are the steps that we will do:
 - Create an user specifically for Zandronum
@@ -37,10 +37,11 @@ There are 2 ways to install zandronum: either by compiling the sources, or by au
 Since we aren't willing to put much work to install Zandronum (unless you really wish to add personnal features), we are going to install it automatically.
 
 Type these commands (taken from the official page):
-> add-apt-repository 'deb http://debian.drdteam.org/ stable multiverse' <br />
+>sudo apt-get install software-properties-common
+add-apt-repository 'deb http://debian.drdteam.org/ stable multiverse' <br />
 wget -O - http://debian.drdteam.org/drdteam.gpg | sudo apt-key add - <br />
 sudo apt-get update <br />
-sudo apt-get install zandronum-server -y
+sudo apt-get install zandronum-server fluidsynth -y
 
 Since Zandronum is not on any official sources from Debian/Ubuntu/Linux Mint, we are adding the official one from the team, so that installing would be much easier. And that is!
 
@@ -69,7 +70,7 @@ Since we have put everything important, let's make a check to see if Zandronum i
 
 It should load MAP01 (or E1M1 if you put DOOM.WAD), as seen in this picture:
 
-![success](https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zandronum/images/success.PNG)
+![success](https://raw.githubusercontent.com/Ch0wW/gameserver-cfg/master/doom/zandronum/images/success.PNG)
 
 If an error says it hasn't found any IWAD, check if you put the wad in uppercase, as said above. Otherwise, good job! You have managed to do the hardest!
 
@@ -81,8 +82,8 @@ Now that we know our server works, we are going to download templates that you w
 
 Type these commands:
 
-> wget https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zandronum/templates/server.sh<br />
-wget https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zandronum/templates/server.cfg<br />
+> wget https://raw.githubusercontent.com/Ch0wW/gameserver-cfg/master/doom/zandronum/templates/server.sh<br />
+wget https://raw.githubusercontent.com/Ch0wW/gameserver-cfg/master/doom/zandronum/templates/server.cfg<br />
 chmod 750 ./server.sh
 
 Now, with your text editor, open the files. Modify what you need (while still respecting the template!). 

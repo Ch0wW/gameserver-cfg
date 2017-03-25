@@ -20,11 +20,11 @@ Create then a shortcut of zandronum (Right Click -> Create a shortcut). Go to pr
 
 > -host
 
-![win_properties](https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zandronum/images/win_properties.PNG)
+![win_properties](https://raw.githubusercontent.com/Ch0wW/gameserver-cfg/master/doom/zandronum/images/win_properties.PNG)
 
 Now, run it. Does a window similar to this screenshot appears? Congratulations, you can run a dedicated server!
 
-![win_success](https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zandronum/images/win_success.PNG)
+![win_success](https://raw.githubusercontent.com/Ch0wW/gameserver-cfg/master/doom/zandronum/images/win_success.PNG)
 
 ## Going further
 
@@ -32,8 +32,8 @@ Now that we know our server works, we are going to download templates that you w
 
 Download these files (Right click on the link -> Save as), and put them on your Zandronum folder:
 
-https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zandronum/templates/zandroserver.bat
-https://raw.githubusercontent.com/Ch0wW/ch0wwlicious-tutorials/master/zandronum/templates/server.cfg
+https://raw.githubusercontent.com/Ch0wW/gameserver-cfg/master/doom/zandronum/templates/zandroserver.bat
+https://raw.githubusercontent.com/Ch0wW/gameserver-cfg/master/doom/zandronum/templates/server.cfg
 
 Now, modify them to your suits!
 

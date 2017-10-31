@@ -1,0 +1,1 @@
+doom3ded.exe +set fs_game opencoop +exec server.cfg

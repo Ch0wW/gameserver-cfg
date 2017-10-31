@@ -37,7 +37,7 @@ There are 2 ways to install zandronum: either by compiling the sources, or by au
 Since we aren't willing to put much work to install Zandronum (unless you really wish to add personnal features), we are going to install it automatically.
 
 Type these commands (taken from the official page):
->sudo apt-get install software-properties-common
+> sudo apt-get install software-properties-common <br />
 add-apt-repository 'deb http://debian.drdteam.org/ stable multiverse' <br />
 wget -O - http://debian.drdteam.org/drdteam.gpg | sudo apt-key add - <br />
 sudo apt-get update <br />

@@ -65,10 +65,4 @@ exec "cfg/var/logging.cfg"					// [M] Mostly Related in cfg/var/help.cfg
 //==========================
 //--- CUSTOM MAPLIST ? ---
 //==========================
-// mapcyclefile "mapcycle.txt" // Uncomment it if you want to use the default mapcycle. -- only on your cstrike main folder!
-
-//==========================
-//--- ECHOING THE MODE ---
-//==========================
-echo "[DEBUG--CHANGEMODE] -> [>YOURMODE<] MODE LOADED"
-say "-> Settings loaded!"
+mapcyclefile "mapcycle.txt" // Uncomment it if you want to use the default mapcycle. -- only on your cstrike main folder!

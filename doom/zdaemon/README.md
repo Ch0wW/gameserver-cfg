@@ -55,8 +55,8 @@ With your FTP client, put your IWADs within that zdaemon/wads.
 In order to install Zdaemon, you will have to download its package, and extracting it.
 
 Type these commands (taken from the official page):
-> wget http://downloads.zdaemon.org/zserv110b09_linux26.tgz<br />
-tar -xzvf zserv110b09_linux26.tgz <br />
+> wget http://downloads.zdaemon.org/zserv11001_linux26.tgz<br />
+tar -xzvf zserv11001_linux26.tgz <br />
 mv zserv110_bin/* $HOME/zdaemon<br />
 cd $HOME/zdaemon
 

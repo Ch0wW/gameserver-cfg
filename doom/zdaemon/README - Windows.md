@@ -10,7 +10,7 @@ If you have already Zdaemon installed on your system, you can skip this step.
 
 Otherwise, you can download the file at this address: http://zdaemon.org/?CMD=downloads .
 
-Select the current archive ( http://downloads.zdaemon.org/zserv110b09_win32.7z ), and extract it on a folder of your choice.
+Select the current archive ( http://downloads.zdaemon.org/zserv11001_win32.7z ), and extract it on a folder of your choice.
 
 ## Setting everything up
 

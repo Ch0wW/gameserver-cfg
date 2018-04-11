@@ -22,6 +22,11 @@ In order to make this tutorial painless, you will need the following:
 
 >You currently are logged in as "root"
 
+First of all, we will install additionnal dependencies for auto-updating ZDaemon through a python3 script.
+apt-get update<br />
+apt-get install python3 python3-pip
+pip3 install --update beautifulsoup4 requests wget
+
 We will create an user called doomuser. Type this command:
 > adduser --force-badname doomuser 
 
@@ -52,19 +57,26 @@ With your FTP client, put your IWADs within that zdaemon/wads.
 
 ## Installing Zdaemon
 
-In order to install Zdaemon, you will have to download its package, and extracting it.
+In order to install Zdaemon, and make sure you will always have the latest version, we will install a small python script.
 
-Type these commands (taken from the official page):
-> wget http://downloads.zdaemon.org/zserv11001_linux26.tgz<br />
-tar -xzvf zserv11001_linux26.tgz <br />
-mv zserv110_bin/* $HOME/zdaemon<br />
-cd $HOME/zdaemon
+Type these commands :
+> wget https://raw.githubusercontent.com/Ch0wW/gameserver-cfg/master/doom/zdaemon/update_zdaemon.py<br />
+chmod 770 update_zdaemon.sh
+
+Now, modify the script to that it points out to your username, group, permissions, and destination directory.
+>platform = "linux" <br />
+default_owner = "doomuser"<br />
+default_group = "doomuser"<br />
+default_chmod = 0o770<br />
+folder_extraction = "./"
+
+Run the script, and your installation is complete.
 
 ## Testing our server
 
 > We are still with doomuser, in $HOME/zdaemon !
 
-Since we have put everything important, let's make a check to see if  is actually working. Type in this command:
+Since it's done, let's make a check to see if zserv is working. Type this command in :
 > ./zserv -waddir $HOME/zdaemon/wads -iwad DOOM2.WAD
 
 It should load MAP01 (or E1M1 if you put DOOM.WAD), as seen in this picture:

@@ -1,10 +1,7 @@
 //---------------------------------------
-// -- Professionnal Configuration  --
-// Revision 9 -- Created 14/06/2012 --
-//
-// Game : Counter-Strike 1.6 - Steam
-//
-// Documentation File to configure your server.
+// Game : Counter-Strike 1.5/1.6 - Steam
+// GitRep: https://github.com/Ch0wW/gameserver-cfg
+//---------------------------------------
 //
 //-----------
 // Values   | 
@@ -14,9 +11,6 @@
 // [Int]	: Integer (ex : 1, 88, 4096)	
 // [Float] 	: Decimal number (ex: 12.3)
 // [Bool]	: Boolean (False = 0 / True = 1)
-//
-//----------------------
-// http://www.BaseQ.fr |
 //----------------------------------------
 
 //=======================================

@@ -93,7 +93,9 @@ If an error says it hasn't found any IWAD, or crashes, check if you put the wad 
 
 Now that we know our server works, feel free to modify zserv.sh & zserv.cfg to make it customized as your suits.
 
-I also added some configurations examples (taken from BaseQ.fr servers) for some of you who are interested. you can check them in the "templates" folder.
+I included a script (start_servers.sh) that will automatically start your servers, aswell as the contents of the service (you'll have to know how to install it by yourself).
+
+I also added some configurations examples (taken from BaseQ.fr servers) for some of you who are interested. You can check them in the "templates" folder.
 
 ## Additionnal ressources
 

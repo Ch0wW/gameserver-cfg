@@ -1,0 +1,12 @@
+[Unit]
+Description=Starts Zdaemon servers.
+
+[Service]
+Type=forking
+User=doomuser
+WorkingDirectory=/home/doomuser/zdaemon
+ExecStart=/bin/bash start_servers.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -23,9 +23,9 @@ In order to make this tutorial painless, you will need the following:
 >You currently are logged in as "root"
 
 First of all, we will install additionnal dependencies for auto-updating ZDaemon through a python3 script.
-apt-get update<br />
-apt-get install python3 python3-pip
-pip3 install --update beautifulsoup4 requests wget
+> apt-get update<br />
+apt-get install python3 python3-pip <br />
+pip3 install beautifulsoup4 requests wget
 
 We will create an user called doomuser. Type this command:
 > adduser --force-badname doomuser 
@@ -61,9 +61,11 @@ In order to install Zdaemon, and make sure you will always have the latest versi
 
 Type these commands :
 > wget https://raw.githubusercontent.com/Ch0wW/gameserver-cfg/master/doom/zdaemon/update_zdaemon.py<br />
-chmod 770 update_zdaemon.sh
+chmod 770 update_zdaemon.py
 
 Now, modify the script to that it points out to your username, group, permissions, and destination directory.
+> nano update_zdaemon.py
+
 >platform = "linux" <br />
 default_owner = "doomuser"<br />
 default_group = "doomuser"<br />
@@ -71,6 +73,7 @@ default_chmod = 0o770<br />
 folder_extraction = "./"
 
 Run the script, and your installation is complete.
+> python3 update_zdaemon.py
 
 ## Testing our server
 
